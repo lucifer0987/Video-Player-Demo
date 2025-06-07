@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.BonusTaskActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/video_id_et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints="false"
+            android:background="@drawable/et_bg_rectangle_round"
+            android:fontFamily="sora"
+            android:gravity="center_vertical"
+            android:hint="Enter YouTube Video ID"
+            android:inputType="textPersonName"
+            android:padding="12dp"
+            android:textColor="#1A1A1A"
+            android:textColorHint="#808080"
+            android:textSize="16sp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/submit_btn"
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/sora"
+            android:text="Submit"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:backgroundTint="@color/primaryColor"
+            app:cornerRadius="16dp" />
+
+        <TextView
+            android:id="@+id/video_data_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:fontFamily="16sp"
+            android:text=""
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+</ScrollView>
