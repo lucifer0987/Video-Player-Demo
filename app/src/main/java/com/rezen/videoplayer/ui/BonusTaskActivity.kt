@@ -33,7 +33,7 @@ class BonusTaskActivity : BaseActivity() {
                 viewModel.fetchYoutubeVideoData(videoId)
             } else {
                 Toast.makeText(
-                    this@BonusTaskActivity, "Please enter video id", Toast.LENGTH_SHORT
+                    this@BonusTaskActivity, "Please enter video id", Toast.LENGTH_LONG
                 ).show()
             }
         }
